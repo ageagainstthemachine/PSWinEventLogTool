@@ -18,6 +18,7 @@ Exports can also be done based on a specified time frame - minutes, hours, days,
 By request, experimental automated support is now available. Please see below.
 
 Example Usage:
+
     .\PSWinEventLogTool.ps1 -param_evt_log 1 -param_time_unit 1 -param_time_how_much 15
 
 The example above should bypass the menus and return a zip containing the Application Log exported for the last 15 minutes previous to the execution time.
